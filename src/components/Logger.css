@@ -1,0 +1,57 @@
+.Logger {
+  width: 100%;
+  max-width: 600px;
+  height: 100%;
+  background-color: #595555;
+
+  padding: 12px;
+  border-radius: 12px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.Logger-header {
+  flex: 0 0 auto;
+
+  font-size: 1.4em;
+  color: white;
+  font-weight: 100;
+  padding: 12px 0;
+}
+.Logger-body {
+  flex: 1 1 auto;
+
+  padding: 12px 0;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.Logger-body .tab-wrapper {
+  flex: 1 1 auto;
+}
+
+.Logger-body .tab-button {
+  height: 84px;
+}
+
+.Logger-body .row-button {
+  display: flex;
+}
+
+.Logger-body .row-button button {
+  border-color: #B47337;
+  color: #f2f0f0;
+  height: 48px;
+  font-size: 32px;
+  line-height: 32px;
+  font-weight: bold;
+}
+.Logger-body .row-button button:hover {
+  background-color: rgba(255,255,255,0.1);
+}
+.Logger-body .row-button button.selected {
+  background-color: #CF883C;
+  color: white;
+}

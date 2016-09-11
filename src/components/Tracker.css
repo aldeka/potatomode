@@ -1,0 +1,44 @@
+.Tracker-body {
+  flex: 1 1 auto;
+  margin-bottom: 12px;
+
+  background-color: #595555;
+  z-index: 4;
+  box-shadow: 0 4px 12px rgba(0,0,0,.3);
+  font-size: calc(5vw);
+
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+}
+
+.latest-item {
+  flex: 1 1 auto;
+
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+}
+
+.icon, .time {
+  flex: 1 1 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.time {
+  display: flex;
+  flex-direction: column;
+
+  font-weight: 500;
+  color: white;
+}
+
+.time.in-progress {
+  color: #ff7777;
+}
+
+.time .in-progress-label {
+  font-weight: 300;
+}
